@@ -1,0 +1,35 @@
+.cardContainer{
+    width: 92%;
+    /* height: 5rem; */
+    background-color: white;
+    border: 1px solid wheat;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+.cardHeader{
+    display: flex;
+    justify-content: space-between;
+    font-size: .8rem;
+    color: gray;
+}
+
+.cardFooter{
+    display: flex;
+    gap: 1rem;
+    font-size: .8rem;
+    color: gray;
+}
+.userName{
+    border: 1px solid gray;
+    background-color:rgb(109, 208, 219);
+    color: white;
+    height: 1.3rem;
+    width: 1.3rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardBody{
+    font-size: 0.9rem;
+}

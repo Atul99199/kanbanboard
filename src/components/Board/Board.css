@@ -1,0 +1,13 @@
+.boardContainer {
+    height: 93vh;
+    width: 100vw;
+    background-color: aliceblue;
+    display: flex;
+    gap: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    overflow-x: auto; /* Enable horizontal scrolling when child components exceed 100% width */
+    box-sizing: border-box;
+}
+
+

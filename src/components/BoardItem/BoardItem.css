@@ -1,0 +1,29 @@
+.boardItemContainer {
+    width: 30%; 
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-self: flex-start;
+}
+
+.boardItemHeader{
+    height: 1.5rem;
+    width: 92%;
+    color: rgb(77, 71, 71);
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    border: 1px solid #bbb8b8;
+    border-radius: .2rem;
+  
+}
+
+.boardItemHeader p{
+    margin: 0;
+}
+

@@ -1,0 +1,10 @@
+.headerContainer{
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    gap: 1rem;
+}
+label{
+    color: gray;
+}
